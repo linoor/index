@@ -5,7 +5,7 @@ $(document).ready(function() {
     var h = window.innerHeight;
     var w = window.innerWidth;
 
-    var canvas = document.createElement('canvas');
+    var canvas = document.getElementById('canvas');
     document.body.appendChild(canvas);
     canvas.width = w;
     canvas.height = h;
