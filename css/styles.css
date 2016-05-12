@@ -1,0 +1,27 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#all {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#text p {
+    color: white;
+}
+
+img.element {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p.element {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -6,7 +6,6 @@ $(document).ready(function() {
     var w = window.innerWidth;
 
     var canvas = document.getElementById('canvas');
-    document.body.appendChild(canvas);
     canvas.width = w;
     canvas.height = h;
 
