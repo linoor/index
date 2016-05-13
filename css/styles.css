@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'font';
+    src: url('Rene Bieder - RBNo2.1a-Bold.otf')
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('Rene Bieder - RBNo2.1a-Medium.otf')
+}
+
 canvas {
     position: absolute;
     top: 0;
@@ -10,7 +20,7 @@ canvas {
     margin: 0 auto;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 55%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -19,12 +29,39 @@ canvas {
     text-align: center;
 }
 
-#text p {
-    color: white;
+#first {
+    margin-top: 80px;
+    font-family: 'font';
+    letter-spacing: 3px;
+    color:  #ffffff;
+    font-size: 25px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 26px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+#second {
+    font-family: 'medium';
+    letter-spacing: 10px;
+    color:  #ffffff;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 500;
+    line-height: 26px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+#rest p {
+    font-family: 'medium';
+    letter-spacing: 2px;
+    color:  #b5b5b5;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 500;
+    line-height: 17px;/* Approximation due to font substitution */
+    text-align: center;
 }
 
 #text div {
-    margin-bottom: 8.8%;
+    margin-bottom: 170px;
 }
 
 img.element {
