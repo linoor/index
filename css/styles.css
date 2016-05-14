@@ -104,6 +104,14 @@ p {
 }
 
 @media (min-width: 1200px) {
+    #logo {
+        margin-top: 10%;
+        margin-bottom: 80px;
+    }
+    #logo img {
+        width: 100px;
+        height: 80px;
+    }
     .col-lg-5ths {
         width: 20%;
         float: left;
