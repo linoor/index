@@ -47,7 +47,7 @@ p {
     line-height: 26px;/* Approximation due to font substitution */
 }
 
-#rest p {
+#mail p {
     font-family: 'medium';
     letter-spacing: 2px;
     color:  #b5b5b5;
