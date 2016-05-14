@@ -9,6 +9,11 @@ $(document).ready(function() {
     canvas.width = w;
     canvas.height = h;
 
+    var limit = 768;
+    if (w < limit && h < limit) {
+        return;
+    }
+
     ctx = canvas.getContext('2d');
 
     function paintCanvas() {

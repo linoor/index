@@ -2,33 +2,55 @@
 <html>
 <head>
   <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
   <canvas id="canvas"></canvas>
-  <div id="all">
-    <img class="element" src="assets/adrian_przetocki_logo.svg" alt="logo">
-    <div id="text">
-      <div>
-        <p id="first">PRZETOCKI.COM</p>
-        <p id="second">WEBSITE IN PROGRESS</p>
+  <div class="container">
+    <div id="outer" class="">
+      <div id="logo" class="row">
+        <img class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-6" src="assets/adrian_przetocki_logo.svg" alt="logo">
       </div>
+      <div id="text">
+        <div class="row">
+          <p id="first" class="text-center">PRZETOCKI.COM</p>
+        </div>
+        <div class="row">
+          <p id="second" class="text-center">WEBSITE IN PROGRESS</p>
+        </div>
 
-      <div id="rest">
-        <p>+48 513 601 929</p>
-        <p>adrian@przetocki.com</p>
+        <div id="mail">
+          <div class="row">
+            <p class="text-center">+48 513 601 929</p>
+          </div>
+          <div class="row">
+            <p class="text-center">adrian@przetocki.com</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="icons">
-      <img src="assets/ico_facebook.svg" alt="">
-      <img src="assets/ico_behance.svg" alt="">
-      <img src="assets/ico_linkedin.svg" alt="">
-      <img src="assets/ico_dribbble.svg" alt="">
-      <img src="assets/ico_instagram.svg" alt="">
+      <div class="row text-center" id="icons">
+        <div class="col-xs-5ths">
+          <img id="facebook" src="assets/ico_facebook.svg" alt="">
+        </div>
+        <div class="col-xs-5ths">
+          <img id="behance" src="assets/ico_behance.svg" alt="">
+        </div>
+        <div class="col-xs-5ths">
+          <img id="linkedin" src="assets/ico_linkedin.svg" alt="">
+        </div>
+        <div class="col-xs-5ths">
+          <img id="dribble" src="assets/ico_dribbble.svg" alt="">
+        </div>
+        <div class="col-xs-5ths">
+          <img id="insta" src="assets/ico_instagram.svg" alt="">
+        </div>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="index.js"></script>
 </body>
 </html>

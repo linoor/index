@@ -13,31 +13,29 @@ canvas {
     top: 0;
     left: 0;
     z-index: -1;
+    background: #000;
 }
 
-#all {
-    width: 500px;
-    margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+p {
+    margin: 0 0 0 0 !important;
+}
+
+#logo {
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+
+#mail {
+    margin-top: 20px;
 }
 
 #first {
-    margin-top: 80px;
     font-family: 'font';
     letter-spacing: 3px;
     color:  #ffffff;
     font-size: 25px;/* Approximation due to font substitution */
     font-weight: 700;
     line-height: 26px;/* Approximation due to font substitution */
-    text-align: center;
 }
 
 #second {
@@ -47,7 +45,6 @@ canvas {
     font-size: 16px;/* Approximation due to font substitution */
     font-weight: 500;
     line-height: 26px;/* Approximation due to font substitution */
-    text-align: center;
 }
 
 #rest p {
@@ -57,35 +54,59 @@ canvas {
     font-size: 16px;/* Approximation due to font substitution */
     font-weight: 500;
     line-height: 17px;/* Approximation due to font substitution */
-    text-align: center;
 }
 
-#text div {
-    margin-bottom: 170px;
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-img.element {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 7.6%;
+#facebook {
+    width: 10px;
+    height: 20px;
 }
 
-p.element {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+#behance {
+    width: 24px;
+    height: 15px;
 }
 
 #icons {
-    display: block;
-    margin: 0 auto;
+    margin-top: 10%;
 }
 
 #icons img {
-    margin-right: 44px;
+    margin: 0 auto;
 }
 
-#icons img:first-of-type {
-    margin-left: 44px;
+.col-xs-5ths {
+    width: 20%;
+    float: left;
 }
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
