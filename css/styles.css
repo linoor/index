@@ -34,7 +34,7 @@ p {
     font-family: 'font';
     letter-spacing: 4px;
     color:  #ffffff;
-    font-size: 30;/* Approximation due to font substitution */
+    font-size: 30px;/* Approximation due to font substitution */
     font-weight: 700;
     line-height: 26px;/* Approximation due to font substitution */
 }
