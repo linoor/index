@@ -32,9 +32,9 @@ p {
 
 #first {
     font-family: 'font';
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color:  #ffffff;
-    font-size: 25px;/* Approximation due to font substitution */
+    font-size: 30;/* Approximation due to font substitution */
     font-weight: 700;
     line-height: 26px;/* Approximation due to font substitution */
 }
@@ -102,11 +102,13 @@ p {
         width: 20%;
         float: left;
     }
+    #logo {
+        margin-top: 23%;
+    }
 }
 
 @media (min-width: 1200px) {
     #logo {
-        margin-top: 10%;
         margin-bottom: 80px;
     }
     #logo img {
