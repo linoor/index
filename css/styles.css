@@ -124,15 +124,15 @@ p {
     }
 }
 
-div#parent div {
-    transition: opacity 0.7s;
-}
-
 div#parent:hover div {
     opacity: 0.1;
 }
 
 div#parent:hover div:hover {
     opacity: 1.0;
+}
+
+div#parent div {
+    transition: opacity 0.7s;
 }
 
