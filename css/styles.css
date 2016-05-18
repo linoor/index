@@ -95,6 +95,9 @@ p {
         width: 20%;
         float: left;
     }
+    #logo {
+        margin-top: 15%;
+    }
 }
 
 @media (min-width: 992px) {
