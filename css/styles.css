@@ -124,7 +124,7 @@ p {
     }
 }
 
-div#parent:hover div {
+div#parent div {
     transition: opacity 0.7s;
 }
 
